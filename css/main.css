@@ -28,40 +28,40 @@ body {
 
 .inner-header {
     background: #3d3c66;
-    height: 200px;
+    height: 150px;
 }
 
 .content {
-	width: 70%;
+	width: 80%;
 	float: left;
 }
 
 .inner-content {
     background: #3d3c66;
-    min-height: 500px;
+    min-height: 650px;
 }
 
 
 .sidebar-1 {
-	width: 15%;
+	width: 10%;
 	float: left;
 	padding-right: 10px;
 }
 
 .inner-sidebar-1 {
     background: #3d3c66;
-	min-height: 500px;
+	min-height: 650px;
 }
 
 .sidebar-2 {
-	width: 15%;
+	width: 10%;
 	float: left;
 	padding-left: 10px;
 }
 
 .inner-sidebar-2 {
     background: #3d3c66;
-	min-height: 500px;
+	min-height: 650px;
 }
 
 .footer {
@@ -70,5 +70,5 @@ body {
 
 .inner-footer {
     background: #3d3c66;
-	height: 200px;
+	height: 100px;
 }

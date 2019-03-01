@@ -41,6 +41,80 @@ body {
     min-height: 650px;
 }
 
+.Content-1 {
+	width: 30%;
+	float: left;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+.inner-content-1 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-2 {
+	width: 30%;
+	float: left;
+	padding-top: 2%;
+	padding-right: 2.5%;
+}
+
+.inner-content-2 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-3 {
+	width: 30%;
+	float: left;
+	padding-top: 2%;
+	padding-right: 2.5%;
+}
+
+.inner-content-3 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-4 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+.inner-content-4 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-5 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-right: 2.5%;
+}
+
+.inner-content-5 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-6 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 4%;
+}
+
+.inner-content-6 {
+	min-height: 300px;
+	background: #C00000;
+}
 
 .sidebar-1 {
 	width: 10%;

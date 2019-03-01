@@ -44,7 +44,7 @@ body {
 .Content-1 {
 	width: 30%;
 	float: left;
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-left: 2%;
 	padding-right: 2.5%;
 }
@@ -54,10 +54,11 @@ body {
 	background: #C00000;
 }
 
+
 .Content-2 {
 	width: 30%;
 	float: left;
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-right: 2.5%;
 }
 
@@ -69,7 +70,7 @@ body {
 .Content-3 {
 	width: 30%;
 	float: left;
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-right: 2.5%;
 }
 
@@ -107,13 +108,25 @@ body {
 	width: 30%;
 	float: left;
 	padding-top: 1%;
-	padding-left: 2%;
-	padding-right: 4%;
+	padding-right: 2.5%;
 }
 
 .inner-content-6 {
 	min-height: 300px;
 	background: #C00000;
+}
+
+.content-image {
+	background: blue;
+	min-height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Game-Name {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 50px;
 }
 
 .sidebar-1 {

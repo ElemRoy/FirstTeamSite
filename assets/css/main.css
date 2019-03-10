@@ -101,3 +101,72 @@ body {
     background: #3d3c66;
 	height: 100px;
 }
+
+.table {
+	border: 2px solid black;
+	background: #c1dbdb;
+	text-align: center;
+}
+
+.dtable {
+	width: 300px;
+	float: left;
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+.dtable2 {
+	width: 300px;
+	float: left;
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+
+@media screen and (min-width: 425px) {
+	.dtable {
+	padding-left: 15%;
+}
+    .dtable2 {
+	padding-left: 15%;
+}
+}
+
+@media screen and (min-width: 1250px) {
+	.dtable2 {
+	padding-left: 40%;
+}
+}
+
+
+@media screen and (min-width: 1669px) {
+	.dtable2 {
+	padding-left: 2%;
+}
+}
+
+@media screen and (min-width: 1670px) {
+	.dtable {
+	padding-left: 5%;
+}
+	.dtable2 {
+	padding-left: 5%;
+}
+}
+
+@media screen and (min-width: 2000px) {
+	.dtable {
+	padding-left: 20%;
+}
+    .dtable2 {
+	padding-left: 20%;
+}
+}
+
+
+
+
+
+

@@ -41,6 +41,41 @@ body {
 
 .inner-content {
     min-height: 650px;
+    width: 90%;
+}
+
+#gm {
+	text-align: center;
+	background: #e2ddda;
+	width: 200px;
+	margin-left: 40%;
+	border: 2px solid black;
+	font-family: 'Lato', sans-serif;
+}
+
+.game-text {
+	width: 100%;
+	background-color: #e2ddda;
+	height: 500px;
+	margin-top: 20px;
+	margin-right: 10%;
+}
+
+.slider {
+	background: black;
+	width: 40%;
+	height: 300px;
+	margin-top: 10px;
+	float: left;
+}
+
+.urls {
+	background: black;
+	width: 30%;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30%;
 }
 
 .Content-1 {
@@ -164,9 +199,3 @@ body {
 	padding-left: 20%;
 }
 }
-
-
-
-
-
-

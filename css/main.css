@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+body {
+	color: white;
+	font-size: 30px;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+* html .row { height: 1%; }
+.row { display: block; }
+
+
+.header {
+	margin-bottom: 10px;
+}
+
+.inner-header {
+    background: #3d3c66;
+    height: 150px;
+}
+
+.content {
+	width: 80%;
+	float: left;
+}
+
+.inner-content {
+    background: #3d3c66;
+    min-height: 650px;
+}
+
+.Content-1 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+.inner-content-1 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+
+.Content-2 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-right: 2.5%;
+}
+
+.inner-content-2 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-3 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-right: 2.5%;
+}
+
+.inner-content-3 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-4 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+.inner-content-4 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-5 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-right: 2.5%;
+}
+
+.inner-content-5 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.Content-6 {
+	width: 30%;
+	float: left;
+	padding-top: 1%;
+	padding-right: 2.5%;
+}
+
+.inner-content-6 {
+	min-height: 300px;
+	background: #C00000;
+}
+
+.content-image {
+	background: blue;
+	min-height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Game-Name {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 50px;
+}
+
+.sidebar-1 {
+	width: 10%;
+	float: left;
+	padding-right: 10px;
+}
+
+.inner-sidebar-1 {
+    background: #3d3c66;
+	min-height: 650px;
+}
+
+.sidebar-2 {
+	width: 10%;
+	float: left;
+	padding-left: 10px;
+}
+
+.inner-sidebar-2 {
+    background: #3d3c66;
+	min-height: 650px;
+}
+
+.footer {
+	margin-top: 10px;
+}
+
+.inner-footer {
+    background: #3d3c66;
+	height: 100px;
+}

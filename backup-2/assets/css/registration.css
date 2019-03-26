@@ -1,0 +1,63 @@
+body{
+	background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: Verdana;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 450px;
+	height: 500px;
+	background-color: rgba(24, 33, 52, 0.7);
+	margin: 70px auto 0 auto;
+	text-align:center;
+	box-shadow: 0 -5px 0 #3adbfd;
+	border-radius: 0 0 10px 10px;
+}
+input[type="text"], input[type="password"]{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	border-radius: 4px;
+	margin-top:10px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px; 
+}
+.container img{
+	width: 120px;
+	height: 120px;
+	margin: -60px 0 30px 0;
+	border: 5px;
+	border-radius: 50%;
+}
+.dws-submit{
+	padding: 13px 36px;
+	margin: 5px 0 26px 0;
+	font-size: 15px;
+	color: #fff;
+	background-color: #2ca8c6;
+	border: none;
+	border-bottom: 4px solid #6ee9fd;
+	cursor: pointer;
+}
+
+.dws-submit:hover{
+ transition: all 0.5s;
+ background: #fff;
+ color: #2c536c;
+}
+
+
+
+
+
+
+
+

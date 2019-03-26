@@ -1,0 +1,298 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+body {
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+* html .row { height: 1%; }
+.row { display: block; }
+
+
+.header {
+	margin-bottom: 10px;
+}
+
+.inner-header {
+    background: #e1e8f0;
+    height: 70px;
+}
+
+.content {
+	margin-left: 8%;
+	width: 72%;
+	float: left;
+  display: flex;
+}
+
+
+.inner-content {
+    min-height: 650px;
+    width: 90%;
+}
+
+#gm {
+	text-align: center;
+	background: #e2ddda;
+	width: 200px;
+	margin-left: 40%;
+	border: 2px solid black;
+	font-family: 'Lato', sans-serif;
+}
+
+.game-text {
+	width: 100%;
+	background-color: #e2ddda;
+	height: 500px;
+	margin-top: 20px;
+	margin-right: 10%;
+}
+
+.slider {
+	background: black;
+	width: 40%;
+	height: 300px;
+	margin-top: 10px;
+	float: left;
+}
+
+.urls {
+	background: black;
+	width: 30%;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30%;
+}
+
+.Content-1 {
+	width: 300px;
+	float: left;
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+.inner-content-1 {
+	min-height: 140px;
+	background: #8e8e90;
+}
+
+
+.content-image {
+	background: blue;
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+.content-image-1 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-2 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-3 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-4 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-5 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-6 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-7 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-8 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-9 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-10 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-11 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-12 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-13 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-14 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-15 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+.content-image-16 img{
+	min-height: 90px;
+	width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+.Game-Name {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.sidebar-1 {
+	width: 10%;
+	float: left;
+	padding-right: 10px;
+}
+
+.inner-sidebar-1 {
+    background: #3d3c66;
+	min-height: 750px;
+}
+
+.sidebar-2 {
+	width: 10%;
+	float: left;
+	padding-left: 10px;
+}
+
+.inner-sidebar-2 {
+    background: #3d3c66;
+	min-height: 750px;
+}
+
+.footer {
+	margin-top: 10px;
+}
+
+.inner-footer {
+    background: #3d3c66;
+	height: 100px;
+}
+
+.table {
+	border: 2px solid black;
+	background: #c1dbdb;
+	text-align: center;
+}
+
+.dtable {
+	width: 300px;
+	float: left;
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+.dtable2 {
+	width: 300px;
+	float: left;
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 2.5%;
+}
+
+
+@media screen and (min-width: 425px) {
+	.dtable {
+	padding-left: 15%;
+}
+    .dtable2 {
+	padding-left: 15%;
+}
+}
+
+@media screen and (min-width: 1250px) {
+	.dtable2 {
+	padding-left: 40%;
+}
+}
+
+
+@media screen and (min-width: 1669px) {
+	.dtable2 {
+	padding-left: 2%;
+}
+}
+
+@media screen and (min-width: 1670px) {
+	.dtable {
+	padding-left: 5%;
+}
+	.dtable2 {
+	padding-left: 5%;
+}
+}
+
+@media screen and (min-width: 2000px) {
+	.dtable {
+	padding-left: 20%;
+}
+    .dtable2 {
+	padding-left: 20%;
+}
+}
